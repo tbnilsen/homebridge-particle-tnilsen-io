@@ -9,7 +9,7 @@ class DimmableLightbulbAccessory extends LightbulbAccessory {
     this.actorService.getCharacteristic(Characteristic.Brightness)
                      .on('set', this.setBrightness.bind(this))
                      .on('get', this.getBrightness.bind(this));
-    this.brightnessFunctionName = 'brightness';
+        this.brightnessFunctionName = this.function_name + 'brightness';
   }
 
   setBrightness(value, callback) {
