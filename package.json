@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tbnilsen/homebridge-particle-io.git"
+    "url": "git+https://github.com/tbnilsen/homebridge-particle-tnilsen-io.git"
   },
   "bugs": {
-    "url": "https://github.com/tbnilsen/homebridge-particle-io/issues"
+    "url": "https://github.com/tbnilsen/homebridge-particle-tnilsen-io/issues"
   },
   "main": "src/index.js",
   "scripts": {
