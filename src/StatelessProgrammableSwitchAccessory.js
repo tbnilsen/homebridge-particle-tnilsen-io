@@ -1,4 +1,4 @@
-onst ActorAccessory = require('./StatelessProgrammableSwitchAccessory.js');
+const ActorAccessory = require('./StatelessProgrammableSwitchAccessory.js');
 
 class StatelessProgrammableSwitchAccessory extends ActorAccessory {
 
