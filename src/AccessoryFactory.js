@@ -2,7 +2,6 @@ const LightbulbAccessory = require('./LightbulbAccessory.js');
 const DimmableLightbulbAccessory = require('./DimmableLightbulbAccessory.js');
 const ColorLightbulbAccessory = require('./ColorLightbulbAccessory.js');
 const SwitchAccessory = require('./SwitchAccessory.js');
-const StatelessProgrammableSwitchAccessory = require('./StatelessProgrammableSwitchAccessory.js');
 const HumiditySensorAccessory = require('./HumiditySensorAccessory.js');
 const TemperatureSensorAccessory = require('./TemperatureSensorAccessory.js');
 const LightSensorAccessory = require('./LightSensorAccessory.js');
@@ -13,7 +12,6 @@ const accessoryRegistry = {
   dimmablelightbulb: DimmableLightbulbAccessory,
   colorlightbulb: ColorLightbulbAccessory,
   switch: SwitchAccessory,
-  //statelessprogrammableswitch: StatelessProgrammableSwitchAccessory,
   temperaturesensor: TemperatureSensorAccessory,
   humiditysensor: HumiditySensorAccessory,
   lightsensor: LightSensorAccessory,
