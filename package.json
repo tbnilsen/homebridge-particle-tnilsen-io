@@ -1,6 +1,6 @@
 {
   "name": "homebridge-particle-tnilsen-io",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "description": "Particle plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
