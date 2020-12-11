@@ -13,5 +13,5 @@ class StatelessProgrammableSwitchAccessory extends ActorAccessory {
   }
 }
 
-module.exports = SwitchAccessory;
+module.exports = StatelessProgrammableSwitchAccessory;
 
