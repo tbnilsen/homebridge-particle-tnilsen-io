@@ -8,7 +8,7 @@ class StatelessProgrammableSwitchAccessory extends ActorAccessory {
     super(log, url, accessToken, device, homebridge, Service.StatelessProgrammableSwitch, Characteristic.ProgrammableSwitchEvent);
   }
 
-  setState(value, callback) {
+  getState(value, callback) {
     super.setState(value ? '1' : '0', callback);
   }
 }
