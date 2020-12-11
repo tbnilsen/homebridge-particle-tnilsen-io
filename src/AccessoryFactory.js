@@ -13,7 +13,7 @@ const accessoryRegistry = {
   dimmablelightbulb: DimmableLightbulbAccessory,
   colorlightbulb: ColorLightbulbAccessory,
   switch: SwitchAccessory,
-  statelessprogrammableswitch: StatelessProgrammableSwitchAccessory,
+  //statelessprogrammableswitch: StatelessProgrammableSwitchAccessory,
   temperaturesensor: TemperatureSensorAccessory,
   humiditysensor: HumiditySensorAccessory,
   lightsensor: LightSensorAccessory,
